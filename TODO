@@ -1,0 +1,10 @@
+// AUTH
+// TODO : Implement Extra Auth Features like Forgot Password , Recover Password and Email Verification
+// TODO : Implement FrontEnd for them
+
+// COMPONENTS
+// TODO : Loading Bar for Data in App.jsx
+// TODO : Loading image effect like youtibe for preview images and main images of articles
+
+// REDUX
+// TODO : Implement Reducers for Posts as well
