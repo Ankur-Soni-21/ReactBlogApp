@@ -7,5 +7,9 @@ import CommonButton from "./CommonButton";
 import Select from "./Select";
 import Input from "./Input";
 import RTE from "./RTE";
+import PostForm from "./post-form/PostForm";
+import Postcard from "./Postcard";
+import Login from "../pages/Login";
+import Signup from "../pages/Signup";
 
-export { Header, Footer, LogoutBtn, MainLogo, Container, CommonButton, Select, Input };
+export { Header, Footer, LogoutBtn, MainLogo, Container, CommonButton, Select, Input, RTE, PostForm, Postcard, Login, Signup };

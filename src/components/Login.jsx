@@ -23,6 +23,7 @@ function Login() {
       }
     } catch (error) {
       setError(error.message);
+      console.log("Error Here : Login.jsx ")
     }
   };
 

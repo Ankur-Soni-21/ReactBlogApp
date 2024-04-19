@@ -80,7 +80,7 @@ class Service {
         }
     }
 
-    async getAllActivePosts(queries = [Query.equal("Status", "Active")]) {
+    async getAllActivePosts(queries = [Query.equal("Status", ["active"])]) {
         try {
             return await this.databases.listDocuments(
                 conf.appwriteDatabaseId,
@@ -129,4 +129,5 @@ class Service {
 }
 
 const service = new Service();
+
 export default service;
